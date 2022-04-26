@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: white;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav{
+    float: center;
+    height: 100%;
+}
+
+.nav_buttons_mid{
+    list-style: none;
+    padding: 40px;
+    text-align: center;
+}
+
+.nav_buttons_mid li{
+    display : inline-block;
+    padding: 0px 20px;
+}
+
+.nav_buttons_top{
+    list-style: none;
+    padding: 20px;
+    text-align: right;
+}
+
+.nav_buttons_top li{
+    display : inline-block;
+    padding: 0px 10px;
+}
+
+
+
+
