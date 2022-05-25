@@ -1,36 +1,241 @@
-div.fixed-rectangle {
+div.fixed-rectangle1 {
     width: 100%;
-    height: 200px;
-    background-color: #9c979a;
+    height: 37.03703703703704vh;
+    background-color: #e0dcdc;
 }
 
 div.fixed-rectangle2 {
     width: 100%;
-    height: 200px;
+    height: 37.03703703703704vh;
     position: relative;
-    background-color: #9c979a;
-    top:200px;
+    background-color: #e0dcdc;
 }
 
-.aboutUsTable td {
+#content {
+    margin-top: 4vh;
+}
+
+#q-abt-booking{
+    font-family: arial;
+    padding-top: 20vh;
+    padding-left: 8vw;
+    margin: 0;
+    width: 17vw;
+    font-weight: bold;
+    font-size: 0.9765625vw;
+    color: white;
+}
+
+#faq-button{
+    margin-left: 8vw;
+    margin-top: 1vh;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #7ad8ce;
+}
+
+#about-section{
+    height: 40vh;
+}
+
+#abt-title{
+    font-family: arial;
+    width: 30vw;
+    margin: auto;
+    color: #ec82ac;
     
-    column-gap: 40px;
-    margin-left: auto;
-    margin-right: auto; 
+}
 
-  }
+#abt-text{
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vh;
+    font-family: arial;
+    font-weight: 500;
+    text-align: center;
+}
 
-  
-.aboutUsTable div {
+#review-section{
+    display: grid;
+    grid-template-columns: 33.333vw 33.333vw 33.333vw;
+    grid-column-gap: 0vw;
+    grid-template-rows: auto;
+    grid-row-gap: 5vh;
+    height: 24vh;
+}
+
+.review-cell{
+    background-color: #b2dcdc;
+}
+
+.review-text{
+    width: 60%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.review-user-section{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 0vw;
+}
+
+.review-user-image-cell{
     
-    column-gap: 40px;
+}
+
+.review-user-image{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-top: 4vh;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: 0;
+}
 
-  }
+.review-user-name{
+    margin: 0;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.review-user-description{
+    margin: 0;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    font-family: arial;
+}
+
+#support-title{
+    color: #ec82ac;
+    font-family: arial;
+}
+
+#logo-div{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-column-gap: 5vw;
+    width: 70vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+}
+
+.logo-image{
+    width: 20vw;
+    height: 20vh;
+    background-color: lightgoldenrodyellow;
+}
+/* extra */
+
+#about-grid{
+    display: grid;
+    grid-template-columns: 20vw 40vw;
+    grid-column-gap: 1vw;
+    grid-template-rows: auto;
+    grid-row-gap: 5vh;
+    font-family: arial;
+    
+    align-content: center;
+    margin: auto;
+    width: 61vw;
+    margin-top: 5vh;
+}
+
+
+#aboutUsTitle {
+    color: black;
+    text-align: center;
+    width: 30%;
+    display: inline;
+    position: relative;
+    margin: auto;
+}
+
+#aboutUsText {
+    color: black;
+    text-align: center;
+    width: 30vw;
+    display: inline;
+    position: relative;
+}
+
+#hostHouse {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
 
 
 
+#sponserText {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#photo1 {
+    position: relative;
+    top: 200px;
+    max-width: 20%;  
+    height: auto;
+}
+
+#createAcc {
+    background-color: rgba(83, 75, 75, 0.356);
+    border-radius: 25px;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    width: 30%;
+    display: inline;
+    word-wrap: break-word; /* words won't go from the boundry */ 
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+#register {
+    background-color: rgba(83, 75, 75, 0.356);
+    border-radius: 25px;
+    color: black;
+    padding: 40px;
+    text-align: left;
+    width: 60%;
+    display:inline;
+    word-wrap: break-word; /* words won't go from the boundry */ 
+    position: relative;
+    top: 50px;
+    left: 395px;
+}
+
+
+#manage {
+    background-color: rgba(83, 75, 75, 0.356);
+    border-radius: 25px;
+    color: black;
+    padding: 40px;
+    text-align: right;
+    width: 90%;
+    display:inline;
+    word-wrap: break-word; /* words won't go from the boundry */ 
+    position: relative;
+    top: 50px;
+    left: 625px;
+}
 
 
 /*

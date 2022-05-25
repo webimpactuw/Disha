@@ -18,7 +18,7 @@ body {
 
 .login-text {
   width: 25vw;
-  height: 2.5vw;
+  height: 3vw;
   max-width: 360px;
   max-height: 36px;
 
@@ -86,7 +86,7 @@ body {
 }
 
 #password {
-  margin-bottom: -3.4vh;
+    margin-bottom: 2vh
 }
 
 #forgot-password {

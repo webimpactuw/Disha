@@ -72,12 +72,8 @@
   .footer{
     text-align: center;
     background-color: #7ad8ce;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+    height: 24.3vh;
+    width: 100%;
   }
   
   .footer .user-input{
@@ -130,3 +126,6 @@
     display: inline;
   }
   
+#newsletter-title{
+    padding-top: 4.62962962962963vh;
+}
