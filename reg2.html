@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="headerfooter.css" />
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="registration.css">
     <title>DISHA</title>
     <script
       src="https://kit.fontawesome.com/b8451873b7.js"
@@ -44,6 +43,7 @@
             <a href="#"><li class="nav-item2">Check-in</li></a>
             <a href="#"><li class="nav-item2">Check-out</li></a>
             <a href="#"><li class="nav-item2">Guests</li></a>
+              <a href="reg2.html"><li class="nav-item2">Register a House</li></a>
             <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
           </ul>
         </div>
@@ -51,6 +51,159 @@
     </div>
     
     <div id="content">
+        <div id="top-buttons">
+            <button type="button" class="blue" id="top-register-button">Register Your House</button> <button type="button" class="top" id="top-manage-button">Manage Your Existing House</button>
+        </div>
+
+        <div id="reg-banner">
+            <p id="reg-banner-text">Register Your House</p>
+        </div>
+        <br>
+        
+        <form id="main-form">
+
+            <div id="name-section">
+                <div>First Name:</div>
+                <div>Last Name:</div>
+                <input type=”First_Name” name=””>
+                <input type=”Last_Name” name=””>
+            </div>
+
+            <br>
+            <br>
+
+            <h3>Type</h3>
+
+            <div id="house-types">
+                <input type="checkbox" name="Charity House" value="Charity House">
+                <input type="checkbox" name="Hotel" value="Hotel">
+                <input type="checkbox" name="Volunteer Residence" value="Volunteer Residence">
+                <div>Charity House</div>
+                <div>Hotel</div>
+                <div>Volunteer Residence</div>
+            </div>
+
+            <br>
+            <br>
+
+            <h3> Address </h3>
+            <input style="margin-top: 1vh; width: 100%" type=”Address”  name=””>
+            <div id="address-grid">
+                <div>City, State</div>
+                <div>Zip Code</div>
+                <input type=”City/State” name=””>
+                <input type=”Zipcode” name=””>
+            </div>
+
+            <br>
+            <br>
+            <h3>Contact Details</h3>
+            <div id="contact-grid">
+                <div>Email Address:</div>
+                <div>Office Hours:</div>
+                <input type=”mail” name=””>
+                <input type=”Office_Hours”  name=””>
+                <button type="button" class="bigbutton">Building Photo</button>
+                <button type="button" class="bigbutton">Building Direction</button>
+            </div>
+
+            <br>
+            <br>
+            <h3> About Your House </h3>
+                <div id="about-grid">
+                <div>Target Audience:</div>
+                <div>Who is eligible to stay?</div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”person_name”  name=””>
+                </div>
+
+            </div>
+
+
+            <h4>Do you associate with an independent group/foundation?</h4> <br>
+            <input type="radio" name="YESNO" />Yes
+            <br>
+            <input type="radio" name="YESNO" />No
+
+            <p style="margin: 0; margin-top: 2vh; margin-bottom: 1vh;">
+            If yes, please provide the name of the group/foundation.       
+            </p>
+            <input type=”Foundation”  name=””>
+
+            <br>
+            <br>
+
+            <h4> Who operates the house? </h4>
+            <div id="who-grid">
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”ppl”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”ppl”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”ppl”  name=””>
+                </div>
+                <div>
+                <input type="checkbox" name="blank" value="blank">
+                <input type=”ppl”  name=””>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <h4>Are you tracking patient's sensitive information?</h4>
+            <form name="myWebForm" action="mailto:youremail@email.com" method="post">
+                <p style="margin: 0; margin-top: 2vh; margin-bottom: 1vh;"> We need to adhere to <em> Data Encryption Standard, HIPPAA</em> protection servers</p>
+                <input type="radio" name="YESNO" /> Yes 
+                <input type="radio" name="YESNO" /> No 
+            </form>
+            <br>
+            <br>
+
+            <div style="text-align: center;">
+                <h5 style="text-align: center; margin-top: 2vh;"> License Information </h5>
+                <p style="margin: 0; margin-top: 1vh; margin-bottom: 5vh;"> If you store patient medical information, we need to store their data in restricted servers</p>
+
+
+                <button type="button" class="pink" style="margin-right: 1vw;">Save progress</button> 
+                <button type="button" class="pink" style="margin-left: 1vw;">Submit</button>
+            </div>
+
+        </form> 
 
     </div>
     
